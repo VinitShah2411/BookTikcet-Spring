@@ -1,0 +1,47 @@
+2022-09-12 02:16:59.663 DEBUG 16400 --- [http-nio-9898-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/public/theater/1", parameters={}
+2022-09-12 02:17:12.270 DEBUG 16400 --- [http-nio-9898-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.controller.ListMovieController#getTheaterById(Integer)
+2022-09-12 02:17:13.851 DEBUG 16400 --- [http-nio-9898-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-12 02:17:14.316 DEBUG 16400 --- [http-nio-9898-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [TheaterBean(theaterId=1, theaterName=Devi CinePlex, morningShowTime=10:30 am, noonShowTime=2:30 pm,  (truncated)...]
+2022-09-12 02:17:14.332 DEBUG 16400 --- [http-nio-9898-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-12 02:22:43.308 DEBUG 16400 --- [http-nio-9898-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/public/theater/1", parameters={}
+2022-09-12 02:22:43.309 DEBUG 16400 --- [http-nio-9898-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.controller.ListMovieController#getTheaterById(Integer)
+2022-09-12 02:22:43.736 DEBUG 16400 --- [http-nio-9898-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-12 02:22:43.739 DEBUG 16400 --- [http-nio-9898-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [TheaterBean(theaterId=1, theaterName=Devi CinePlex, morningShowTime=10:30 am, noonShowTime=2:30 pm,  (truncated)...]
+2022-09-12 02:22:43.824 DEBUG 16400 --- [http-nio-9898-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-12 02:44:43.634 DEBUG 16400 --- [http-nio-9898-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/public/theater/1", parameters={}
+2022-09-12 02:44:43.635 DEBUG 16400 --- [http-nio-9898-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.controller.ListMovieController#getTheaterById(Integer)
+2022-09-12 02:44:44.189 DEBUG 16400 --- [http-nio-9898-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2022-09-12 02:44:44.284 DEBUG 16400 --- [http-nio-9898-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [TheaterBean(theaterId=1, theaterName=Devi CinePlex, morningShowTime=10:30 am, noonShowTime=2:30 pm,  (truncated)...]
+2022-09-12 02:44:44.289 DEBUG 16400 --- [http-nio-9898-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-09-12 02:52:31.927  INFO 16400 --- [RMI TCP Connection(274)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-09-12 02:52:37.791  INFO 16400 --- [RMI TCP Connection(274)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-09-12 02:52:38.777  INFO 16400 --- [RMI TCP Connection(274)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-12 02:52:42.714  WARN 16400 --- [RMI TCP Connection(274)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-09-12 02:52:42.744  WARN 16400 --- [RMI TCP Connection(274)-127.0.0.1] o.a.c.loader.WebappClassLoaderBase       : The web application [ROOT] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2022-09-12 02:52:46.550  INFO 16400 --- [RMI TCP Connection(274)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-12 02:52:50.847  INFO 16400 --- [RMI TCP Connection(274)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-09-12 02:52:51.664  INFO 16400 --- [RMI TCP Connection(274)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
